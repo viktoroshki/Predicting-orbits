@@ -19,7 +19,20 @@ public struct body
 public class GlobalVariables
 {
     public static body[] bodies = new body[3]; // Array of bodies in the simulation
+    public static Transform[] transformArray; // Where all the visuals are in the scene
 
     public static float gravitationalConstant = 1.0f;
-    
+
+    // Spawn conditions for the bodies
+    public static Vector3 body1Velocity = new Vector3(0, 0, 0);
+    public static Vector3 body1Position = new Vector3(0, 0, 0);
+    public static float body1Radius = 1f;
+
+    public static Vector3 body2Velocity = new Vector3(0, 0, 0);
+    public static Vector3 body2Position = new Vector3(0, 0, 0);
+    public static float body2Radius = 1f;
+
+    public static Vector3 body3Velocity = new Vector3(0, 0, 0);
+    public static Vector3 body3Position = new Vector3(0, 0, 0);
+    public static float body3Radius = 1f;
 }
